@@ -1,0 +1,10 @@
+
+# Ignore internal Git files
+.git/
+.gitignore
+COMMIT_EDITMSG
+HEAD
+config
+description
+index
+
