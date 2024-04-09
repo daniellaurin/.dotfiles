@@ -1,3 +1,15 @@
+#Display Pokemon
+pokemon-colorscripts --no-title -r 1,3,6
+
+print -Pr -- 'Hello, %n. Today is %D{%A}.' | lolcat
+
+eval "$(fzf --zsh)"
+eval "$(zoxide init zsh)"
+
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 # Path to your oh-my-zsh installation.
 ZSH=/usr/share/oh-my-zsh/
 
@@ -5,30 +17,31 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting)
-source $ZSH/oh-my-zsh.sh
+plugins=(vi-mode zsh-syntax-highlighting zsh-256color zsh-history-substring-search you-should-use auto-notify archlinux git sudo colored-man-pages zsh-autosuggestions zsh-completions common-aliases)
 
-# Load zsh-vi-mode
-source ~/.zsh/zsh-vi-mode/zsh-vi-mode.plugin.zsh
+fpath+=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions/src
+
+
+source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
 function command_not_found_handler {
-    local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
-    printf 'zsh: command not found: %s\n' "$1"
-    local entries=( ${(f)"$(/usr/bin/pacman -F --machinereadable -- "/usr/bin/$1")"} )
-    if (( ${#entries[@]} )) ; then
-        printf "${bright}$1${reset} may be found in the following packages:\n"
-        local pkg
-        for entry in "${entries[@]}" ; do
-            local fields=( ${(0)entry} )
-            if [[ "$pkg" != "${fields[2]}" ]] ; then
-                printf "${purple}%s/${bright}%s ${green}%s${reset}\n" "${fields[1]}" "${fields[2]}" "${fields[3]}"
-            fi
-            printf '    /%s\n' "${fields[4]}"
-            pkg="${fields[2]}"
-        done
-    fi
-    return 127
+  local purple='\e[1;35m' bright='\e[0;1m' green='\e[1;32m' reset='\e[0m'
+  printf 'zsh: command not found: %s\n' "$1"
+  local entries=( ${(f)"$(/usr/bin/pacman -F --machinereadable -- "/usr/bin/$1")"} )
+  if (( ${#entries[@]} )) ; then
+    printf "${bright}$1${reset} may be found in the following packages:\n"
+    local pkg
+    for entry in "${entries[@]}" ; do
+      local fields=( ${(0)entry} )
+      if [[ "$pkg" != "${fields[2]}" ]] ; then
+        printf "${purple}%s/${bright}%s ${green}%s${reset}\n" "${fields[1]}" "${fields[2]}" "${fields[3]}"
+      fi
+      printf '    /%s\n' "${fields[4]}"
+      pkg="${fields[2]}"
+    done
+  fi
+  return 127
 }
 
 # Detect the AUR wrapper
@@ -67,9 +80,13 @@ alias neofetch='neofetch | lolcat'
 alias nvide='neovide'
 alias view='nvim -R'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
+alias cat='bat'
 
-
-
+# Tmux aliases
+alias t="tmux"
+alias ta="t a -t"
+alias tls="t ls"
+alias tn="t new -t"
 
 # Handy change dir shortcuts
 alias ..='cd ..'
@@ -84,8 +101,27 @@ alias mkdir='mkdir -p'
 # Fixes "Error opening terminal: xterm-kitty" when using the default kitty term to open some programs through ssh
 alias ssh='kitten ssh'
 
+# My Binds
+
+# History substring search options
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey -M vicmd 'k' history-substring-search-up
+bindkey -M vicmd 'j' history-substring-search-down
+
+# Auto-suggestions
+bindkey '^o' autosuggest-accept
+bindkey '^f' forward-word
+bindkey '^y' autosuggest-clear
+
+
+
+
+# Auto Notify plugin
+AUTO_NOTIFY_IGNORE+=('vtop' 'sudoedit' 'nvide' 'lf' 'tmux' 'zsh' 'omz' 'bash')
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
-#Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6
+
+
