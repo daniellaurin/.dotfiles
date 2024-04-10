@@ -81,6 +81,7 @@ alias nvide='neovide'
 alias view='nvim -R'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles --work-tree=$HOME"
 alias cat='bat'
+alias y='yazi'
 
 # Tmux aliases
 alias t="tmux"
@@ -118,7 +119,7 @@ bindkey '^y' autosuggest-clear
 
 
 # Auto Notify plugin
-AUTO_NOTIFY_IGNORE+=('vtop' 'sudoedit' 'nvide' 'lf' 'tmux' 'zsh' 'omz' 'bash')
+AUTO_NOTIFY_IGNORE+=('vtop' 'sudoedit' 'nvide' 'lf' 'tmux' 'zsh' 'omz' 'bash' 'git' 'yazi' 'btop' 'cat')
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

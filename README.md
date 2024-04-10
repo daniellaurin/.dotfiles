@@ -1,26 +1,54 @@
-# .dotfiles
+```markdown
+### .dotfiles
 
-- OS: arch linux
-- WM: hyprland
-- Terminal: kitty
-- Shell: zsh
-- Text Editor: neovim
+- **[Arch Linux](https://archlinux.org/):** Operating System
+- **[Hyprland](https://hyprland.org/):** Window Manager
+- **[Kitty](https://github.com/kovidgoyal/kitty):** Terminal
+- **[Tmux](https://github.com/tmux/tmux):** Terminal Multiplexer
+- **[Zsh](https://github.com/zsh-users/zsh):** Shell
+- **[Neovim](https://github.com/neovim/neovim):** Text Editor
+    - **Configuration:** [LazyVim](https://github.com/LazyVim/LazyVim)
+- **[Fira Code](https://github.com/tonsky/FiraCode):** Font
+- **[Gruvbox](https://github.com/morhetz/gruvbox):** Colors
 
-# .tools 
+### AUR Packages
 
+- **[paru](https://github.com/Morganamilo/paru):** AUR helper
+- **[vtop](https://github.com/MrRio/vtop):** System monitoring
+- **[lolcat](https://github.com/busyloop/lolcat):** Rainbow output
+- **[bat](https://github.com/sharkdp/bat):** Cat clone with wings
+- **[exa](https://github.com/ogham/exa):** Modern replacement for ls
+- **[neovide](https://github.com/Kethku/neovide):** GPU accelerated Neovim client
+- **[cava](https://github.com/ncmpcpp/cava):** Console-based Audio Visualizer
 
-# plugins
+### Tmux Plugins
 
-* TPM
-- [TMUX Plugin Manager (tpm)](https://github.com/tmux-plugins/tpm)
-- [tmux-sensible](https://github.com/tmux-plugins/tmux-sensible)
-- [tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control)
-- [tmux-gruvbox](https://github.com/egel/tmux-gruvbox)
-- [tmux-nerd-font-window-name](https://github.com/joshmedeski/tmux-nerd-font-window-name)
-- [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
-- [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
-- [tmux-open](https://github.com/tmux-plugins/tmux-open)
-- [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)
+- **[tpm](https://github.com/tmux-plugins/tpm):** TMUX Plugin Manager
+- **[tmux-sensible](https://github.com/tmux-plugins/tmux-sensible):** Basic tmux settings everyone can agree on
+- **[tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control):** Plugin for controlling tmux pane resizing
+- **[tmux-gruvbox](https://github.com/egel/tmux-gruvbox):** Gruvbox theme for tmux
+- **[tmux-nerd-font-window-name](https://github.com/joshmedeski/tmux-nerd-font-window-name):** Plugin to display nerd font icons in tmux window names
+- **[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect):** Persists tmux environment
+- **[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum):** Automatic tmux session persistence
+- **[tmux-open](https://github.com/tmux-plugins/tmux-open):** Plugin to open highlighted text in your default browser
+- **[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat):** Enhances tmux search
 
-* Oh My Zsh
+### Oh My Zsh Plugins
+
+- **[vi-mode](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode):** Vim key bindings for Zsh
+- **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting):** Fish shell-like syntax highlighting for Zsh
+- **[zsh-256color](https://github.com/chrissico/zsh-256color):** Enables 256 color support
+- **[zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search):** Fish shell-like history search
+- **[you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use):** Suggests aliases for commands you might not know
+- **[auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify):** Notifies you when a process finishes
+- **[colored-man-pages](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/colored-man-pages):** Colorizes man pages
+- **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):** Suggests commands as you type
+- **[zsh-completions](https://github.com/zsh-users/zsh-completions):** Additional completion definitions for Zsh
+
+*** I caught aliasitis and it is cronic
+- **[common-aliases](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/common-aliases):** Useful aliases for Zsh
+- **[git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git):** Git aliases and functions
+- **[sudo](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sudo):** Aliases and functions for sudo
+- **[archlinux](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/archlinux):** Aliases and functions for Arch Linux
+```
 
