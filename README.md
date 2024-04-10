@@ -1,5 +1,8 @@
-# .dotfiles
+<img src="images/lazyvim.png" alt="lazyvim" width="100" style="margin: 0 10px;" /> 
+<img src="images/hyprdots.png" alt="hyprdots" width="100" style="margin: 0 10px;" /> 
+<img src="images/gruvbox2.png" alt="gruvbox" width="200" style="margin: 0 10px;" />
 
+# .dotfiles
 - **[Arch Linux](https://archlinux.org/):** Operating System
 - **[Hyprland](https://hyprland.org/):** Window Manager
 - **[Kitty](https://github.com/kovidgoyal/kitty):** Terminal
