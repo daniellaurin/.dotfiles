@@ -1,12 +1,12 @@
-### .dotfiles
+# .dotfiles
 
 - **[Arch Linux](https://archlinux.org/):** Operating System
 - **[Hyprland](https://hyprland.org/):** Window Manager
 - **[Kitty](https://github.com/kovidgoyal/kitty):** Terminal
 - **[Tmux](https://github.com/tmux/tmux):** Terminal Multiplexer
 - **[Zsh](https://github.com/zsh-users/zsh):** Shell
-- **[Neovim](https://github.com/neovim/neovim):** Text Editor
-    - **Configuration:** [LazyVim](https://github.com/LazyVim/LazyVim)
+- **[Neovim](https://github.com/neovim/neovim):** Text Editor (Blazingly Fast)
+    - **[LazyVim](https://github.com/LazyVim/LazyVim)**: IDE (0 to LSP)
 - **[Fira Code](https://github.com/tonsky/FiraCode):** Font
 - **[Gruvbox](https://github.com/morhetz/gruvbox):** Colors
 
@@ -44,7 +44,7 @@
 - **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):** Suggests commands as you type
 - **[zsh-completions](https://github.com/zsh-users/zsh-completions):** Additional completion definitions for Zsh
 
-*** I caught aliasitis and it is cronic
+#### I caught aliasitis and it is cronic ####
 - **[common-aliases](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/common-aliases):** Useful aliases for Zsh
 - **[git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git):** Git aliases and functions
 - **[sudo](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sudo):** Aliases and functions for sudo
