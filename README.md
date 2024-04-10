@@ -1,4 +1,3 @@
-```markdown
 ### .dotfiles
 
 - **[Arch Linux](https://archlinux.org/):** Operating System
@@ -50,5 +49,4 @@
 - **[git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git):** Git aliases and functions
 - **[sudo](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sudo):** Aliases and functions for sudo
 - **[archlinux](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/archlinux):** Aliases and functions for Arch Linux
-```
 
