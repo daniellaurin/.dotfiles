@@ -1,6 +1,13 @@
-<img src="images/lazyvim.png" alt="lazyvim" width="100" style="margin: 0 10px;" /> 
-<img src="images/hyprdots.png" alt="hyprdots" width="100" style="margin: 0 10px;" /> 
-<img src="images/gruvbox2.png" alt="gruvbox" width="200" style="margin: 0 10px;" />
+
+ <div style="text-align: center">
+    <img src="images/hyprdots.png" width="250" />
+    <img src="images/lazyvim.png" width="250" />
+    <img src="images/gruvbox2.png"  />
+</div>
+
+
+
+
 
 # .dotfiles
 - **[Arch Linux](https://archlinux.org/):** Operating System
