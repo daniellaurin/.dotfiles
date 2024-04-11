@@ -20,6 +20,8 @@
 - **[Fira Code](https://github.com/tonsky/FiraCode):** Font
 - **[Gruvbox](https://github.com/morhetz/gruvbox):** Colours
 
+<br>
+
 
 
 <img src="images/screenshot_1.png">
