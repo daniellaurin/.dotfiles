@@ -4,9 +4,9 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Twemoji12_1f4a4.svg/512px-Twemoji12_1f4a4.svg.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://www.color-hex.com/palettes/1040572.png" height="80px">
 </div>
-<h1 align="center">Hyprdots: <i><em>deluxe</em></i></h1>
+<h1 align="left">Hyprdots: <i><em>deluxe</em></i> edition</h1>
 
-<p align="center">This project takes the hyprdots setup to the next level by adopting Tmux and Lazyvim as the default choice, moving away from the traditional Visual Studio Code setup (<i>gross</i>).</p>
+<p align="left">This project takes the hyprdots setup to the next level by adopting Tmux and Lazyvim as the default choice, moving away from the traditional Visual Studio Code setup (<i>gross</i>).</p>
 
 ## My Awesome Programming Setup
 
