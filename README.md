@@ -1,9 +1,7 @@
 # .dotfiles
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_logo.png" height="90px" style="margin-right: 10px;">
-    <span style="font-size: 2em;">+</span>
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Twemoji12_1f4a4.svg/512px-Twemoji12_1f4a4.svg.png" height="80px" style="margin-right: 10px;">
-    <span style="font-size: 2em;">+</span>
+    <img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_logo.png" height="90px" style="margin-right: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Twemoji12_1f4a4.svg/512px-Twemoji12_1f4a4.svg.png" height="80px" style="margin-right: 20px;">
     <img src="https://www.color-hex.com/palettes/1040572.png" height="80px">
 </div>
 
