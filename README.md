@@ -1,15 +1,11 @@
-
- <div style="text-align: center">
-    <img src="images/hyprdots.png" width="250" />
-    <img src="images/lazyvim.png" width="250" />
-    <img src="images/gruvbox2.png"  />
-</div>
-
-
-
-
-
 # .dotfiles
+        <h1 style="display: flex; flex-direction: row;">
+            <img src="images/hyprdots.png" height="90px" style="margin-right: 80px;">
+            <img src="images/lazyvim.png" height="80px">
+            <img src="images/gruvbox.png" height="105px">
+        </h1>
+
+### My Awesome Programming Setup
 - **[Arch Linux](https://archlinux.org/):** Operating System
 - **[Hyprland](https://hyprland.org/):** Window Manager
 - **[Kitty](https://github.com/kovidgoyal/kitty):** Terminal
