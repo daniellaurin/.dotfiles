@@ -4,8 +4,12 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Twemoji12_1f4a4.svg/512px-Twemoji12_1f4a4.svg.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
     <img src="https://www.color-hex.com/palettes/1040572.png" height="80px">
 </div>
+<h1 align="center">Hyprdots: <i><em>deluxe</em></i></h1>
+
+<p align="center">This project takes the hyprdots setup to the next level by adopting Tmux and Lazyvim as the default choice, moving away from the traditional Visual Studio Code setup (<i>gross</i>).</p>
 
 ## My Awesome Programming Setup
+
 - **[Arch Linux](https://archlinux.org/):** Operating System
 - **[Hyprland](https://hyprland.org/):** Window Manager
 - **[Kitty](https://github.com/kovidgoyal/kitty):** Terminal
@@ -15,6 +19,13 @@
     - **[LazyVim](https://github.com/LazyVim/LazyVim)**: IDE (0 to LSP)
 - **[Fira Code](https://github.com/tonsky/FiraCode):** Font
 - **[Gruvbox](https://github.com/morhetz/gruvbox):** Colors
+
+
+
+<img src="images/screenshot_1.png" width="500" height="300">
+<br>
+<img src="images/screenshot_2.png" width="500" height="300">
+
 
 ### AUR Packages
 
@@ -28,7 +39,7 @@
 
 ### Tmux Plugins
 
-- **[tpm](https://github.com/tmux-plugins/tpm):** TMUX Plugin Manager
+- **[tpm](https://github.com/tmux-plugins/tpm):** Tmux Plugin Manager
 - **[tmux-sensible](https://github.com/tmux-plugins/tmux-sensible):** Basic tmux settings everyone can agree on
 - **[tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control):** Plugin for controlling tmux pane resizing
 - **[tmux-gruvbox](https://github.com/egel/tmux-gruvbox):** Gruvbox theme for tmux
@@ -50,9 +61,22 @@
 - **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):** Suggests commands as you type
 - **[zsh-completions](https://github.com/zsh-users/zsh-completions):** Additional completion definitions for Zsh
 
+### Terminal Themes ###
+
+- **[zsh-completions](https://github.com/zsh-users/zsh-completions):** Additional completion definitions for Zsh
+- **[Powerlevel10k](https://github.com/romkatv/powerlevel10k):** A highly customizable Zsh theme
+
 #### I caught aliasitis and it is cronic ####
+
 - **[common-aliases](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/common-aliases):** Useful aliases for Zsh
 - **[git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git):** Git aliases and functions
 - **[sudo](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sudo):** Aliases and functions for sudo
 - **[archlinux](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/archlinux):** Aliases and functions for Arch Linux
+
+
+# Thank You hyprdots! ✨
+- [prasanthrangan ](https://github.com/prasanthrangan) for this [hyprdots](https://github.com/prasanthrangan/hyprdots/tree/main)
+
+
+
 
