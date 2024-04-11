@@ -16,9 +16,9 @@
 - **[Tmux](https://github.com/tmux/tmux):** Terminal Multiplexer
 - **[Zsh](https://github.com/zsh-users/zsh):** Shell
 - **[Neovim](https://github.com/neovim/neovim):** Text Editor (Blazingly Fast)
-    - **[LazyVim](https://github.com/LazyVim/LazyVim)**: IDE (0 to LSP)
+    - **[LazyVim](https://github.com/LazyVim/LazyVim)**: IDE
 - **[Fira Code](https://github.com/tonsky/FiraCode):** Font
-- **[Gruvbox](https://github.com/morhetz/gruvbox):** Colors
+- **[Gruvbox](https://github.com/morhetz/gruvbox):** Colours
 
 
 
@@ -76,6 +76,11 @@
 
 # Thank You hyprdots! ✨
 - [prasanthrangan ](https://github.com/prasanthrangan) for this [hyprdots](https://github.com/prasanthrangan/hyprdots/tree/main)
+
+#### TODO: ####
+- [ ] Add my Custom keyboard config
+- [ ] querty => orthogonal, 36-key layout
+- [ ] emojis 😊
 
 
 
