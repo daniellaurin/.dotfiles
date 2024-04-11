@@ -1,13 +1,11 @@
 # .dotfiles
-<table>
-<tr>
-<td><img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_logo.png" height="90px"></td>
-<td style="text-align:center;">+</td>
-<td><img src="https://avatars.githubusercontent.com/u/122150220?s=200&v=4" height="80px"></td>
-<td style="text-align:center;">+</td>
-<td><img src="https://www.color-hex.com/palettes/1040572.png" height="80px"></td>
-</tr>
-</table>
+<h1 style="display: flex; flex-direction: row; align-items: center;">
+    <img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_logo.png" height="90px">
+    &nbsp;&#43;&nbsp;
+    <img src="https://avatars.githubusercontent.com/u/122150220?s=200&v=4" height="80px">
+    &nbsp;&#43;&nbsp;
+    <img src="https://www.color-hex.com/palettes/1040572.png" height="80px">
+</h1>
 
 ### My Awesome Programming Setup
 - **[Arch Linux](https://archlinux.org/):** Operating System
