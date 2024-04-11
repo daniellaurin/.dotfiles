@@ -22,9 +22,9 @@
 
 
 
-<img src="images/screenshot_1.png" width="500" height="300">
+<img src="images/screenshot_1.png">
 <br>
-<img src="images/screenshot_2.png" width="500" height="300">
+<img src="images/screenshot_2.png">
 
 
 ### AUR Packages
