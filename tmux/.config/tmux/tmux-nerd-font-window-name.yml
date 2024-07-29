@@ -5,7 +5,6 @@ config:
   icon-position: "left" # show the icon to the "left" or "right" of the window name (defaults to left)
 
 icons:
-  zsh: ""
   bash: ""
   cmatrix: "🤯"
   htop: ""
@@ -30,3 +29,6 @@ icons:
   btop: "📈"
   bun: "🥟"
   overmind: "👀"
+  npm: ""
+  zsh: ""
+  kitten: "󰄛"
