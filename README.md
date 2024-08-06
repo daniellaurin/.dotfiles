@@ -85,6 +85,5 @@
 - [ ] emojis 😊
 
 ### Typist ###
-<a href="https://data.typeracer.com/pit/profile?user=charging554&ref=badge" target="_top"><img src="https://data.typeracer.com/misc/badge?user=charging554" border="0" alt="TypeRacer.com scorecard for user charging554"/></a>
 
 
