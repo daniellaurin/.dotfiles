@@ -1,8 +1,8 @@
 # .dotfiles
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <img src="https://raw.githubusercontent.com/prasanthrangan/hyprdots/main/Source/assets/hyprdots_logo.png" height="90px">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Twemoji12_1f4a4.svg/512px-Twemoji12_1f4a4.svg.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="https://www.color-hex.com/palettes/1040572.png" height="80px">
+    <img src="/images/logo/hyprdots-logo.png" height="90px">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/images/logo/lazy-logo.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/images/logo/gruvbox-logo.png" height="80px">
 </div>
 <h1 align="left">Hyprdots: <i><em>deluxe</em></i> edition</h1>
 
@@ -78,12 +78,5 @@
 
 # Thank You hyprdots! ✨
 - [prasanthrangan ](https://github.com/prasanthrangan) for this [hyprdots](https://github.com/prasanthrangan/hyprdots/tree/main)
-
-#### TODO: ####
-- [ ] Add my Custom keyboard config
-- [ ] querty => orthogonal, 36-key layout
-- [ ] emojis 😊
-
-### Typist ###
 
 
