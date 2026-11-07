@@ -6,7 +6,7 @@
 </div>
 <h1 align="left">Hyprdots: <i><em>deluxe</em></i> edition</h1>
 
-<p align="left">This project takes the hyprdots setup to the next level by adopting Tmux and Lazyvim as the default choice, moving away from the traditional Visual Studio Code setup (<i>gross</i>).</p>
+<p align="left">This project takes the hyprdots setup to the next level by adopting Tmux and Lazyvim as the default choice, moving away from the traditional Visual Studio Code setup </p>
 
 ## My Awesome Programming Setup
 
@@ -32,11 +32,8 @@
 ### AUR Packages
 
 - **[paru](https://github.com/Morganamilo/paru):** AUR helper
-- **[vtop](https://github.com/MrRio/vtop):** System monitoring
-- **[lolcat](https://github.com/busyloop/lolcat):** Rainbow output
 - **[bat](https://github.com/sharkdp/bat):** Cat clone with wings
 - **[exa](https://github.com/ogham/exa):** Modern replacement for ls
-- **[neovide](https://github.com/Kethku/neovide):** GPU accelerated Neovim client
 - **[cava](https://github.com/ncmpcpp/cava):** Console-based Audio Visualizer
 
 ### Tmux Plugins
