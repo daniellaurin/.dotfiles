@@ -1,77 +1,21 @@
 # .dotfiles
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <img src="/img/logo/hyprdots-logo.png" height="90px">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/img/logo/lazy-logo.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/img/logo/gruvbox-logo.png" height="80px">
-</div>
+<p align="center">
+    <img src="/img/logo/hyprdots-logo.png" height="100">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/img/logo/lazy-logo.png" height="100">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/img/logo/gruvbox-logo.png" height="100">
+</p>
+
 <h1 align="left">Hyprdots: <i><em>deluxe</em></i> edition</h1>
 
-<p align="left">This project takes the hyprdots setup to the next level by adopting Tmux and Lazyvim as the default choice, moving away from the traditional Visual Studio Code setup </p>
-
-## My Awesome Programming Setup
-
-- **[Arch Linux](https://archlinux.org/):** Operating System
-- **[Hyprland](https://hyprland.org/):** Window Manager
-- **[Kitty](https://github.com/kovidgoyal/kitty):** Terminal
-- **[Tmux](https://github.com/tmux/tmux):** Terminal Multiplexer
-- **[Zsh](https://github.com/zsh-users/zsh):** Shell
-- **[Neovim](https://github.com/neovim/neovim):** Text Editor (Blazingly Fast)
-    - **[LazyVim](https://github.com/LazyVim/LazyVim)**: IDE
-- **[Fira Code](https://github.com/tonsky/FiraCode):** Font
-- **[Gruvbox](https://github.com/morhetz/gruvbox):** Colours
+<p align="left">This project takes the hyprdots setup and adopting it to my more custom CLI workflow </p>
 
 <br>
-
-
 
 <img src="img/screenshot_1.png">
 <br>
 <img src="img/screenshot_2.png">
-
-
-### AUR Packages
-
-- **[paru](https://github.com/Morganamilo/paru):** AUR helper
-- **[bat](https://github.com/sharkdp/bat):** Cat clone with wings
-- **[exa](https://github.com/ogham/exa):** Modern replacement for ls
-- **[cava](https://github.com/ncmpcpp/cava):** Console-based Audio Visualizer
-
-### Tmux Plugins
-
-- **[tpm](https://github.com/tmux-plugins/tpm):** Tmux Plugin Manager
-- **[tmux-sensible](https://github.com/tmux-plugins/tmux-sensible):** Basic tmux settings everyone can agree on
-- **[tmux-pain-control](https://github.com/tmux-plugins/tmux-pain-control):** Plugin for controlling tmux pane resizing
-- **[tmux-gruvbox](https://github.com/egel/tmux-gruvbox):** Gruvbox theme for tmux
-- **[tmux-nerd-font-window-name](https://github.com/joshmedeski/tmux-nerd-font-window-name):** Plugin to display nerd font icons in tmux window names
-- **[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect):** Persists tmux environment
-- **[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum):** Automatic tmux session persistence
-- **[tmux-open](https://github.com/tmux-plugins/tmux-open):** Plugin to open highlighted text in your default browser
-- **[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat):** Enhances tmux search
-
-### Oh My Zsh Plugins
-
-- **[vi-mode](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode):** Vim key bindings for Zsh
-- **[zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting):** Fish shell-like syntax highlighting for Zsh
-- **[zsh-256color](https://github.com/chrissico/zsh-256color):** Enables 256 color support
-- **[zsh-history-substring-search](https://github.com/zsh-users/zsh-history-substring-search):** Fish shell-like history search
-- **[you-should-use](https://github.com/MichaelAquilina/zsh-you-should-use):** Suggests aliases for commands you might not know
-- **[auto-notify](https://github.com/MichaelAquilina/zsh-auto-notify):** Notifies you when a process finishes
-- **[colored-man-pages](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/colored-man-pages):** Colorizes man pages
-- **[zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions):** Suggests commands as you type
-- **[zsh-completions](https://github.com/zsh-users/zsh-completions):** Additional completion definitions for Zsh
-
-### Terminal Themes ###
-
-- **[zsh-completions](https://github.com/zsh-users/zsh-completions):** Additional completion definitions for Zsh
-- **[Powerlevel10k](https://github.com/romkatv/powerlevel10k):** A highly customizable Zsh theme
-
-#### I caught aliasitis and it is cronic ####
-
-- **[common-aliases](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/common-aliases):** Useful aliases for Zsh
-- **[git](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/git):** Git aliases and functions
-- **[sudo](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/sudo):** Aliases and functions for sudo
-- **[archlinux](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/archlinux):** Aliases and functions for Arch Linux
-
 
 # Thank You hyprdots! ✨
 - [prasanthrangan ](https://github.com/prasanthrangan) for this [hyprdots](https://github.com/prasanthrangan/hyprdots/tree/main)
