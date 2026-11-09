@@ -1,8 +1,8 @@
 # .dotfiles
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
-    <img src="/images/logo/hyprdots-logo.png" height="90px">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/images/logo/lazy-logo.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
-    <img src="/images/logo/gruvbox-logo.png" height="80px">
+    <img src="/img/logo/hyprdots-logo.png" height="90px">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/img/logo/lazy-logo.png" height="80px">&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="/img/logo/gruvbox-logo.png" height="80px">
 </div>
 <h1 align="left">Hyprdots: <i><em>deluxe</em></i> edition</h1>
 
@@ -24,9 +24,9 @@
 
 
 
-<img src="images/screenshot_1.png">
+<img src="img/screenshot_1.png">
 <br>
-<img src="images/screenshot_2.png">
+<img src="img/screenshot_2.png">
 
 
 ### AUR Packages

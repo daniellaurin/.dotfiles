@@ -1,0 +1,12 @@
+cemu-bin
+jellyfin-desktop
+kgamma
+kwin-x11
+paru-debug
+pokego-bin
+rustdesk-unattended-wayland
+swaylock-effects-git
+trash-cli-git
+wacomtablet
+wordbook
+wttrbar

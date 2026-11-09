@@ -1,0 +1,46 @@
+{
+  "workbench.colorTheme": "Vim Dark Hard",
+  "editor.fontSize": 12,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "security.workspace.trust.untrustedFiles": "newWindow",
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.enabled": false,
+  "editor.minimap.side": "left",
+  "editor.fontFamily": "'JetbrainsMono Nerd Font','Maple Mono', monospace",
+  "extensions.autoUpdate": "off",
+  "terminal.external.linuxExec": "kitty",
+  "terminal.explorerKind": "both",
+  "terminal.sourceControlRepositoriesKind": "both",
+  "telemetry.telemetryLevel": "off",
+  "window.customTitleBarVisibility": "auto",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "ms-python.python",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/lib/jvm/java-21-openjdk"
+    }
+  ],
+  "terminal.integrated.focusAfterRun": "terminal",
+  "git.enableSmartCommit": true,
+  "ansible.validation.lint.autoFixOnSave": true,
+  "ansible.lightspeed.enabled": false,
+  "ansible.lightspeed.suggestions.enabled": false,
+
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.ruff": "explicit",
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+
+  "python.languageServer": "Default",
+  "pyright.disableLanguageServices": false,
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "workbench.activityBar.location": "top",
+  "workbench.editor.editorActionsLocation": "titleBar"
+}

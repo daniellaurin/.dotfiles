@@ -1,0 +1,12 @@
+com.github.rafostar.Clapper
+com.github.tchx84.Flatseal
+com.obsproject.Studio
+dev.vencord.Vesktop
+io.github.flattool.Warehouse
+io.gitlab.adhami3310.Impression
+io.gitlab.theevilskeleton.Upscaler
+io.missioncenter.MissionCenter
+org.gimp.GIMP
+org.gnome.eog
+org.inkscape.Inkscape
+org.kde.krita
