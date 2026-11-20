@@ -1,0 +1,6 @@
+.zsh_history
+.z
+.zcompdump*
+*.zwc
+tmux/.tmux/plugins/
+tmux/.tmux/resurrect/

@@ -1,0 +1,5 @@
+[pull]
+    rebase = false
+
+[alias]
+    backup = !sh -c 'git add -A && (git diff --cached --quiet || git commit -m "backup: $(date \"+%Y-%m-%d %H:%M:%S\")") && git push'

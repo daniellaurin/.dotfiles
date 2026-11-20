@@ -1,0 +1,28 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+export GIT_SSH_COMMAND="${GIT_SSH_COMMAND:-coder gitssh}"
+
+REPOS=(
+  "$HOME/.hermes"
+  "$HOME/workspace"
+  "$HOME/homelab-notes"
+)
+
+for dir in "${REPOS[@]}"; do
+  if [ ! -d "$dir/.git" ]; then
+    echo "SKIP: $dir (not a git repo)"
+    continue
+  fi
+  echo "==> Syncing $dir"
+  cd "$dir"
+  git add -A
+  if ! git diff --cached --quiet; then
+    git commit -m "backup: $(date '+%Y-%m-%d %H:%M:%S')"
+  fi
+  if [ "$(git rev-list --count @{u}..HEAD 2>/dev/null || echo 0)" -gt 0 ]; then
+    git push
+  else
+    echo "    Up to date."
+  fi
+done
